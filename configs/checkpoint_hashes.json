@@ -1,0 +1,5 @@
+{
+  "densenet121": "b934075ea22a81d7a7119a677c83dc65ce079ad53d42b5bacf87bb59e6f97c18",
+  "convnextv2_tiny": "3e227e545e8871dbb981f35e4b48638e7ab4e408149c8cd6bc1a8d9c9552c7d1",
+  "swinb_lora": "44edafc02e47cd1b3e1549bd55c48cf8ff22fc1b5d33179c07e8f38e148b7602"
+}

@@ -1,0 +1,35 @@
+# configs/gate_policy.yaml
+# NOTE: Post-hoc illustrative policy thresholds based on VinDr-CXR distributions.
+# Severity tiers below are author-defined heuristic groupings for error analysis.
+
+severity_tiers:
+  Critical:
+    - "Aortic enlargement"
+    - "Pneumothorax"
+  Moderate:
+    - "Cardiomegaly"
+    - "Pleural effusion"
+    - "Consolidation"
+    - "Atelectasis"
+  Mild:
+    - "Calcification"
+    - "ILD"
+    - "Infiltration"
+    - "Lung Opacity"
+    - "Nodule/Mass"
+    - "Other lesion"
+    - "Pleural thickening"
+    - "Pulmonary fibrosis"
+
+criteria:
+  min_macro_auroc:
+    fail_below: 0.7500
+  min_critical_recall:
+    warn_below: 0.8400
+    fail_below: 0.7500
+  max_adebayo_spearman_rho:
+    fail_above: 0.3000
+  max_type_b_fp_delta:
+    warn_above: 0.1000
+  max_critical_blind_fn_rate:
+    warn_above: 0.7500

@@ -1,0 +1,50 @@
+{
+  "densenet121": {
+    "Aortic enlargement": 0.4,
+    "Atelectasis": 0.2,
+    "Calcification": 0.15,
+    "Cardiomegaly": 0.45,
+    "Consolidation": 0.25,
+    "ILD": 0.3,
+    "Infiltration": 0.35,
+    "Lung Opacity": 0.2,
+    "Nodule/Mass": 0.15,
+    "Other lesion": 0.2,
+    "Pleural effusion": 0.45,
+    "Pleural thickening": 0.35,
+    "Pneumothorax": 0.1,
+    "Pulmonary fibrosis": 0.25
+  },
+  "convnextv2_tiny": {
+    "Aortic enlargement": 0.3,
+    "Atelectasis": 0.25,
+    "Calcification": 0.25,
+    "Cardiomegaly": 0.25,
+    "Consolidation": 0.1,
+    "ILD": 0.25,
+    "Infiltration": 0.15,
+    "Lung Opacity": 0.15,
+    "Nodule/Mass": 0.3,
+    "Other lesion": 0.35,
+    "Pleural effusion": 0.2,
+    "Pleural thickening": 0.35,
+    "Pneumothorax": 0.25,
+    "Pulmonary fibrosis": 0.4
+  },
+  "swinb_lora": {
+    "Aortic enlargement": 0.55,
+    "Atelectasis": 0.3,
+    "Calcification": 0.2,
+    "Cardiomegaly": 0.25,
+    "Consolidation": 0.2,
+    "ILD": 0.5,
+    "Infiltration": 0.3,
+    "Lung Opacity": 0.3,
+    "Nodule/Mass": 0.3,
+    "Other lesion": 0.2,
+    "Pleural effusion": 0.45,
+    "Pleural thickening": 0.4,
+    "Pneumothorax": 0.2,
+    "Pulmonary fibrosis": 0.3
+  }
+}
